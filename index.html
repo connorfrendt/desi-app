@@ -74,5 +74,23 @@
 </style>
 
 <script>
+    fetch("phone.json")
+        .then(response => {
+            
+            return response.json();
+        })
+        .then(data => {
+            // Access the data from the JSON file here
+            console.log('PIZZA');
+            console.log(data);
+        });
 
+
+    let comments = '';
+    let commentText = document.getElementById('input-box-top');
+
+    commentText.addEventListener('input', function(event) {
+        comments = event.target.value;
+        console.log(comments);
+    });
 </script>

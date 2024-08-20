@@ -1,0 +1,618 @@
+{
+    "copyright": "Copyright 1997 Matrix Software Solutions",
+    "group": "Toshiba DKT 2000",
+    "typeCode": "TOS-2020",
+    "description": "20 Button Phone",
+    "landscape": false,
+    "width": 2725,
+    "height": 10050,
+    "origins": [
+      [2110, 1400],
+      [4795, 1400],
+      [7470, 1400]
+    ],
+    "objects": {
+      "5096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [1325, 1750, 1340, 10050],
+        "defaultText": ""
+      },
+      "6096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 9050, 2725, 9065],
+        "defaultText": ""
+      },
+      "7096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 8183, 2725, 8198],
+        "defaultText": ""
+      },
+      "8096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 7316, 2725, 7331],
+        "defaultText": ""
+      },
+      "9096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 6450, 2725, 6465],
+        "defaultText": ""
+      },
+      "10096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 5583, 2725, 5598],
+        "defaultText": ""
+      },
+      "11096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 4716, 2725, 4731],
+        "defaultText": ""
+      },
+      "12096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 3850, 2725, 3865],
+        "defaultText": ""
+      },
+      "13096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 2983, 2725, 2998],
+        "defaultText": ""
+      },
+      "14096": {
+        "kind": "rectangle",
+        "color": "#000",
+        "position": [0, 2116, 2725, 2131],
+        "defaultText": ""
+      },
+      "15096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 1816, 1225, 2101],
+        "defaultText": ""
+      },
+      "16096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 2683, 1225, 2968],
+        "defaultText": ""
+      },
+      "17096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 3550, 1225, 3835],
+        "defaultText": ""
+      },
+      "18096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 4416, 1225, 4701],
+        "defaultText": ""
+      },
+      "19096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 5283, 1225, 5568],
+        "defaultText": ""
+      },
+      "20096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 6150, 1225, 6435],
+        "defaultText": ""
+      },
+      "21096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 7016, 1225, 7301],
+        "defaultText": ""
+      },
+      "22096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 7883, 1225, 8168],
+        "defaultText": ""
+      },
+      "23096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 8750, 1225, 9035],
+        "defaultText": ""
+      },
+      "24096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [375, 9616, 1225, 9901],
+        "defaultText": ""
+      },
+      "25096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 1816, 2600, 2101],
+        "defaultText": ""
+      },
+      "26096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 2683, 2600, 2968],
+        "defaultText": ""
+      },
+      "27096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 3550, 2600, 3835],
+        "defaultText": ""
+      },
+      "28096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 4416, 2600, 4701],
+        "defaultText": ""
+      },
+      "29096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 5283, 2600, 5568],
+        "defaultText": ""
+      },
+      "30096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 6150, 2600, 6435],
+        "defaultText": ""
+      },
+      "31096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 7016, 2600, 7301],
+        "defaultText": ""
+      },
+      "32096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 7883, 2600, 8168],
+        "defaultText": ""
+      },
+      "33096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 8750, 2600, 9035],
+        "defaultText": ""
+      },
+      "34096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [1750, 9616, 2600, 9901],
+        "defaultText": ""
+      },
+      "35096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 1883, 300, 2083],
+        "defaultText": ""
+      },
+      "36096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 2750, 300, 2950],
+        "defaultText": ""
+      },
+      "37096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 3616, 300, 3816],
+        "defaultText": ""
+      },
+      "38096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 4483, 300, 4683],
+        "defaultText": ""
+      },
+      "39096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 5350, 300, 5550],
+        "defaultText": ""
+      },
+      "40096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 6216, 300, 6416],
+        "defaultText": ""
+      },
+      "41096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 7083, 300, 7283],
+        "defaultText": ""
+      },
+      "42096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 7950, 300, 8150],
+        "defaultText": ""
+      },
+      "43096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 8816, 300, 9016],
+        "defaultText": ""
+      },
+      "44096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [100, 9683, 300, 9883],
+        "defaultText": ""
+      },
+      "45096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 1883, 1675, 2083],
+        "defaultText": ""
+      },
+      "46096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 2750, 1675, 2950],
+        "defaultText": ""
+      },
+      "47096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 3616, 1675, 3816],
+        "defaultText": ""
+      },
+      "48096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 4483, 1675, 4683],
+        "defaultText": ""
+      },
+      "49096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 5350, 1675, 5550],
+        "defaultText": ""
+      },
+      "50096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 6216, 1675, 6416],
+        "defaultText": ""
+      },
+      "51096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 7083, 1675, 7283],
+        "defaultText": ""
+      },
+      "52096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 7950, 1675, 8150],
+        "defaultText": ""
+      },
+      "53096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 8816, 1675, 9016],
+        "defaultText": ""
+      },
+      "54096": {
+        "kind": "rectangle",
+        "color": "#c00000",
+        "position": [1475, 9683, 1675, 9883],
+        "defaultText": ""
+      },
+      "55096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 9666, 850, 10066],
+        "defaultText": "1"
+      },
+      "56096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 8800, 850, 9200],
+        "defaultText": "2"
+      },
+      "57096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 7933, 850, 8333],
+        "defaultText": "3"
+      },
+      "58096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 7066, 850, 7466],
+        "defaultText": "4"
+      },
+      "59096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 6200, 850, 6600],
+        "defaultText": "5"
+      },
+      "60096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 5333, 850, 5733],
+        "defaultText": "6"
+      },
+      "61096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 4466, 850, 4866],
+        "defaultText": "7"
+      },
+      "62096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 3600, 850, 4000],
+        "defaultText": "8"
+      },
+      "63096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [750, 2733, 850, 3133],
+        "defaultText": "9"
+      },
+      "64096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [700, 1866, 900, 2266],
+        "defaultText": "10"
+      },
+      "65096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 1866, 2275, 2266],
+        "defaultText": "20"
+      },
+      "66096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 2733, 2275, 3133],
+        "defaultText": "19"
+      },
+      "67096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 3600, 2275, 4000],
+        "defaultText": "18"
+      },
+      "68096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 4466, 2275, 4866],
+        "defaultText": "17"
+      },
+      "69096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 5333, 2275, 5733],
+        "defaultText": "16"
+      },
+      "70096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 6200, 2275, 6600],
+        "defaultText": "15"
+      },
+      "71096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 7066, 2275, 7466],
+        "defaultText": "14"
+      },
+      "72096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 7933, 2275, 8333],
+        "defaultText": "13"
+      },
+      "73096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 8800, 2275, 9200],
+        "defaultText": "12"
+      },
+      "74096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [2075, 9666, 2275, 10066],
+        "defaultText": "11"
+      },
+      "75096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [50, 100, 950, 350],
+        "defaultText": "Comments:"
+      },
+      "76096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#c0ffff",
+        "position": [50, 350, 2625, 950],
+        "defaultText": ""
+      },
+      "77096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 1075, 2625, 1275],
+        "defaultText": ""
+      },
+      "78096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 1300, 1275, 1750],
+        "defaultText": ""
+      },
+      "79096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 2167, 1275, 2617],
+        "defaultText": ""
+      },
+      "80096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 3039, 1275, 3489],
+        "defaultText": ""
+      },
+      "81096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 3905, 1275, 4355],
+        "defaultText": ""
+      },
+      "82096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 4777, 1275, 5227],
+        "defaultText": ""
+      },
+      "83096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 5644, 1275, 6094],
+        "defaultText": ""
+      },
+      "84096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 6515, 1275, 6965],
+        "defaultText": ""
+      },
+      "85096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 7382, 1275, 7832],
+        "defaultText": ""
+      },
+      "86096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 8254, 1275, 8704],
+        "defaultText": ""
+      },
+      "87096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [50, 9120, 1275, 9570],
+        "defaultText": ""
+      },
+      "88096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 1300, 2625, 1750],
+        "defaultText": ""
+      },
+      "89096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 2167, 2625, 2617],
+        "defaultText": ""
+      },
+      "90096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 3039, 2625, 3489],
+        "defaultText": ""
+      },
+      "91096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 3905, 2625, 4355],
+        "defaultText": ""
+      },
+      "92096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 4777, 2625, 5227],
+        "defaultText": ""
+      },
+      "93096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 5644, 2625, 6094],
+        "defaultText": ""
+      },
+      "94096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 6515, 2625, 6965],
+        "defaultText": ""
+      },
+      "95096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 7382, 2625, 7832],
+        "defaultText": ""
+      },
+      "96096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 8254, 2625, 8704],
+        "defaultText": ""
+      },
+      "97096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [1400, 9120, 2625, 9570],
+        "defaultText": ""
+      }
+    }
+  }

@@ -55,7 +55,7 @@
     }
 
     #input-box-btm {
-        height: 25px;
+        /* height: 25px; */
         width: 200px;
         text-align: center;
         margin-top: 10px;
@@ -76,15 +76,31 @@
 <script>
     fetch("phone.json")
         .then(response => {
-            
+            if(!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            // Parse the JSON file
             return response.json();
         })
         .then(data => {
             // Access the data from the JSON file here
-            console.log('PIZZA');
-            console.log(data);
+            console.log(data.origins[0]);
+            // console.log('PIZZA', twipsToPixels(data.origins[0][0]));
+            let testBox = twipsToPixels(data.origins[0][0]);
+            
+            // Set height of input-box-btm dynamically
+            let inputBoxBtm = document.getElementById('input-box-btm');
+            inputBoxBtm.style.height = testBox + 'px';
+        })
+        .catch(error => {
+            console.error('ERROR: ', error);
         });
 
+    const twipsToPixels = num => {
+        let numTwips = num / 1440 // 1440 twips per inch
+        let twipsToPixels = numTwips * 96; // 96 pixels per inch
+        return twipsToPixels;
+    }
 
     let comments = '';
     let commentText = document.getElementById('input-box-top');

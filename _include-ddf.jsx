@@ -11,7 +11,7 @@ var DDF = DDF || (function () {
         // Private functions
         function twipsToPoints(value) {
             var twips = 1440; // per inch
-            var points = 72; // per inch (are points ==== pixels?)
+            var points = 72; // per inch
             return value / twips * points;
         };
 

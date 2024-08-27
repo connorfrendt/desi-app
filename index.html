@@ -4,109 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./index.css">
         <title>DESI Mockup</title>
     </head>
     <body>
         <main>
             <div>
-                <div id="box">
-                    <div id="com-box">
-                        <div id="com">Comments:</div>
-                    </div>
-                    <input id="input-box-top" />
-                    <input id="input-box-btm" />
-                    <div class="other-boxes">
-                        <div><input class="input"/></div>
-                        <div><input class="input"/></div>
-                    </div>
-                    <div class="other-boxes">
-                        <div><input class="input"/></div>
-                        <div><input class="input"/></div>
-                    </div>
-                </div>
+                <div id="main-box"></div>
             </div>
         </main>
     </body>
 </html>
 
-<style>
-    body {
-        background-color: gray;
-        color: white;
-    }
+<style></style>
 
-    #box {
-        height: 450px;
-        width: 225px;
-        background-color: lightgray;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    #com {
-        color: black;
-    }
-
-    #input-box-top {
-        height: 50px;
-        width: 200px;
-        text-align: center;
-        background-color: lightblue;
-    }
-
-    #input-box-btm {
-        /* height: 25px; */
-        width: 200px;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .other-boxes {
-        display: flex;
-        justify-content: center;
-    }
-    .input {
-        height: 50px;
-        width: 86px;
-        margin: 2px 10px;
-        text-align: center;
-    }
-</style>
-
-<script>
-    fetch("phone.json")
-        .then(response => {
-            if(!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            // Parse the JSON file
-            return response.json();
-        })
-        .then(data => {
-            // Access the data from the JSON file here
-            console.log(data.origins[0]);
-            // console.log('PIZZA', twipsToPixels(data.origins[0][0]));
-            let testBox = twipsToPixels(data.origins[0][0]);
-            
-            // Set height of input-box-btm dynamically
-            let inputBoxBtm = document.getElementById('input-box-btm');
-            inputBoxBtm.style.height = testBox + 'px';
-        })
-        .catch(error => {
-            console.error('ERROR: ', error);
-        });
-
-    const twipsToPixels = num => {
-        let numTwips = num / 1440 // 1440 twips per inch
-        let twipsToPixels = numTwips * 96; // 96 pixels per inch
-        return twipsToPixels;
-    }
-
-    let comments = '';
-    let commentText = document.getElementById('input-box-top');
-
-    commentText.addEventListener('input', function(event) {
-        comments = event.target.value;
-        console.log(comments);
-    });
-</script>
+<script src="./index.js"></script>

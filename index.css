@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+#main-box {
+    background-color: lightgray;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#comment-label {
+    color: black;
+}
+
+#comments-box {
+    /* height: 50px;
+    width: 200px; */
+    text-align: center;
+    background-color: lightblue;
+}
+
+#input-box-btm {
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* .other-boxes {
+    background-color: blue;
+} */
+.input {
+    margin: 2px 10px;
+    text-align: center;
+}

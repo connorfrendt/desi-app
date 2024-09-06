@@ -56,7 +56,6 @@ fetch("phone.json")
             // Checks to see if the editable property is true, if so, make the box editable in the HTML
             if(obj.editable) {
                 let inputBox = document.getElementById(`input-box-${i}`);
-                // console.log('Input Box: ', inputBox);
                 inputBox.contentEditable = 'true';
                 inputBox.style.color = 'black';
             }
@@ -67,7 +66,6 @@ fetch("phone.json")
         
         comment71.addEventListener('input', () => {
             comments = comment71.innerHTML;
-            // userInput71 = comments;
         });
 
         console.log('Comments: ', comments);
@@ -77,12 +75,14 @@ fetch("phone.json")
         console.error('ERROR: ', error);
     });
 
+// Convert Twips to Pixels
 const twipsToPixels = num => {
     let numTwips = num / 1440 // 1440 twips per inch
     let twipsToPixels = numTwips * 96; // 96 pixels per inch
     return twipsToPixels;
 }
 
+// When the DOM is loaded, listen for when the user submits the form
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM Content Loaded');
 

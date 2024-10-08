@@ -43,7 +43,6 @@ fetch("phone.json")
                 <div id="input-box-${i}"
                     style="height: ${height}px;
                     width: ${width}px;
-                    background-color: ${obj.color};
                     position: absolute;
                     left: ${twipsToPixels(obj.position[0])}px;
                     top: ${twipsToPixels(obj.position[1])}px;
@@ -57,8 +56,18 @@ fetch("phone.json")
             if(obj.editable) {
                 let inputBox = document.getElementById(`input-box-${i}`);
                 inputBox.contentEditable = 'true';
-                inputBox.style.color = 'black';
+                inputBox.style.backgroundColor = obj.color;
+                inputBox.style.color = "black";
             }
+            else if(!obj.editable && obj.kind === "staticText") {
+                let inputBox = document.getElementById(`input-box-${i}`);
+                inputBox.style.color = obj.color;
+            }
+            else if(!obj.editable && obj.kind === "rectangle") {
+                let inputBox = document.getElementById(`input-box-${i}`);
+                inputBox.style.backgroundColor = obj.color;
+            }
+            
         }
         
         // Get the comments from the input boxes
@@ -68,7 +77,6 @@ fetch("phone.json")
             comments = comment71.innerHTML;
         });
 
-        console.log('Comments: ', comments);
         return comments;
     })
     .catch(error => {

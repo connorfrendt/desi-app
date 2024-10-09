@@ -13,7 +13,7 @@ fetch("phone.json")
         // Origins - The top left corner of the outer box
         let origins = data.origins;
         userInput.push(data);
-        console.log('User Input: ', userInput);
+        
         // Display the outer box
         let outerContainer = document.getElementById('outer-box');
         outerContainer.style.position = 'absolute';
@@ -40,17 +40,32 @@ fetch("phone.json")
             let width  = twipsToPixels(obj.position[2] - obj.position[0]);
             let height = twipsToPixels(obj.position[3] - obj.position[1]);
             
-            let boxHTML = `
-                <div id="input-box-${i}"
-                    style="height: ${height}px;
-                    width: ${width}px;
-                    position: absolute;
-                    left: ${twipsToPixels(obj.position[0])}px;
-                    top: ${twipsToPixels(obj.position[1])}px;
-                    ">
-                    ${obj.defaultText}
-                </div>
-            `;
+            if(obj.kind === "dottedLine") {
+                boxHTML = `
+                    <div id="input-box-${i}"
+                        style="height: ${height}px;
+                        width: ${width}px;
+                        position: absolute;
+                        left: ${twipsToPixels(obj.position[0])}px;
+                        top: ${twipsToPixels(obj.position[1])}px;
+                        border: 1px dotted ${obj.color};
+                        ">
+                    </div>
+                `;
+            }
+            else {
+                boxHTML = `
+                    <div id="input-box-${i}"
+                        style="height: ${height}px;
+                        width: ${width}px;
+                        position: absolute;
+                        left: ${twipsToPixels(obj.position[0])}px;
+                        top: ${twipsToPixels(obj.position[1])}px;
+                        ">
+                        ${obj.defaultText}
+                    </div>
+                `;
+            }
             
             // Append boxHTML to the container
             container.innerHTML += boxHTML;
@@ -58,6 +73,7 @@ fetch("phone.json")
             // Checks to see if the editable property is true, if so, make the box editable in the HTML
             if(obj.editable) {
                 let inputBox = document.getElementById(`input-box-${i}`);
+                console.log(inputBox);
                 inputBox.contentEditable = 'true'; // Make the box editable
                 inputBox.style.backgroundColor = obj.color;
                 inputBox.style.color = "black";

@@ -1,0 +1,785 @@
+{
+    "copyright": "Copyright ¬© 2003 DESI Telephone Labels, Inc.",
+    "group": "Inter-Tel Axxess 8000 Series",
+    "typeCode": "AX8K26WD",
+    "description": "8520/8560 Digital Display w/Mini-DSS 8416",
+    "landscape": false,
+    "width": 9079,
+    "height": 7617,
+    "origins": [
+      [
+        1600,
+        3679
+      ]
+    ],
+    "objects": {
+      "5096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#c0ffff",
+        "position": [
+          100,
+          350,
+          8979,
+          850
+        ],
+        "defaultText": ""
+      },
+      "6096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          175,
+          1040,
+          2148,
+          1384
+        ],
+        "defaultText": ""
+      },
+      "7096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          208,
+          2275,
+          942,
+          2670
+        ],
+        "defaultText": ""
+      },
+      "8096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          208,
+          3038,
+          942,
+          3433
+        ],
+        "defaultText": ""
+      },
+      "9096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          208,
+          3801,
+          942,
+          4196
+        ],
+        "defaultText": ""
+      },
+      "10096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          208,
+          4564,
+          942,
+          4959
+        ],
+        "defaultText": ""
+      },
+      "11096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          208,
+          5327,
+          942,
+          5722
+        ],
+        "defaultText": ""
+      },
+      "12096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          2839,
+          3388,
+          3219
+        ],
+        "defaultText": ""
+      },
+      "13096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          3450,
+          3388,
+          3830
+        ],
+        "defaultText": ""
+      },
+      "14096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          4061,
+          3388,
+          4441
+        ],
+        "defaultText": ""
+      },
+      "15096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          4672,
+          3388,
+          5052
+        ],
+        "defaultText": ""
+      },
+      "16096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          5283,
+          3388,
+          5663
+        ],
+        "defaultText": ""
+      },
+      "17096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          5894,
+          3388,
+          6274
+        ],
+        "defaultText": ""
+      },
+      "18096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          6505,
+          3388,
+          6885
+        ],
+        "defaultText": ""
+      },
+      "19096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          2505,
+          7116,
+          3388,
+          7496
+        ],
+        "defaultText": ""
+      },
+      "20096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          2228,
+          4972,
+          2608
+        ],
+        "defaultText": ""
+      },
+      "21096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          2839,
+          4972,
+          3219
+        ],
+        "defaultText": ""
+      },
+      "22096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          3450,
+          4972,
+          3830
+        ],
+        "defaultText": ""
+      },
+      "23096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          4061,
+          4972,
+          4441
+        ],
+        "defaultText": ""
+      },
+      "24096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          4672,
+          4972,
+          5052
+        ],
+        "defaultText": ""
+      },
+      "25096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          5283,
+          4972,
+          5663
+        ],
+        "defaultText": ""
+      },
+      "26096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          5894,
+          4972,
+          6274
+        ],
+        "defaultText": ""
+      },
+      "27096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          6505,
+          4972,
+          6885
+        ],
+        "defaultText": ""
+      },
+      "28096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          4089,
+          7116,
+          4972,
+          7496
+        ],
+        "defaultText": ""
+      },
+      "29096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          2228,
+          7370,
+          2608
+        ],
+        "defaultText": ""
+      },
+      "30096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          2839,
+          7370,
+          3219
+        ],
+        "defaultText": ""
+      },
+      "31096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          3450,
+          7370,
+          3830
+        ],
+        "defaultText": ""
+      },
+      "32096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          4061,
+          7370,
+          4441
+        ],
+        "defaultText": ""
+      },
+      "33096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          4672,
+          7370,
+          5052
+        ],
+        "defaultText": ""
+      },
+      "34096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          5283,
+          7370,
+          5663
+        ],
+        "defaultText": ""
+      },
+      "35096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          5894,
+          7370,
+          6274
+        ],
+        "defaultText": ""
+      },
+      "36096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          6487,
+          6505,
+          7370,
+          6885
+        ],
+        "defaultText": ""
+      },
+      "37096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          2228,
+          8934,
+          2608
+        ],
+        "defaultText": ""
+      },
+      "38096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          2839,
+          8934,
+          3219
+        ],
+        "defaultText": ""
+      },
+      "39096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          3450,
+          8934,
+          3830
+        ],
+        "defaultText": ""
+      },
+      "40096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          4061,
+          8934,
+          4441
+        ],
+        "defaultText": ""
+      },
+      "41096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          4672,
+          8934,
+          5052
+        ],
+        "defaultText": ""
+      },
+      "42096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          5283,
+          8934,
+          5663
+        ],
+        "defaultText": ""
+      },
+      "43096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          5894,
+          8934,
+          6274
+        ],
+        "defaultText": ""
+      },
+      "44096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          8051,
+          6505,
+          8934,
+          6885
+        ],
+        "defaultText": ""
+      },
+      "45096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          100,
+          2159,
+          1050,
+          6090
+        ],
+        "defaultText": ""
+      },
+      "46096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          208,
+          2700,
+          942,
+          2945
+        ],
+        "defaultText": ""
+      },
+      "47096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          208,
+          3463,
+          942,
+          3708
+        ],
+        "defaultText": ""
+      },
+      "48096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          208,
+          4226,
+          942,
+          4471
+        ],
+        "defaultText": ""
+      },
+      "49096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          208,
+          4989,
+          942,
+          5234
+        ],
+        "defaultText": ""
+      },
+      "50096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          208,
+          5752,
+          942,
+          5997
+        ],
+        "defaultText": ""
+      },
+      "51096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          2475,
+          2778,
+          3418,
+          7547
+        ],
+        "defaultText": ""
+      },
+      "52096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          4059,
+          2159,
+          5002,
+          7547
+        ],
+        "defaultText": ""
+      },
+      "53096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          6457,
+          2159,
+          7415,
+          6956
+        ],
+        "defaultText": ""
+      },
+      "54096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          8021,
+          2159,
+          8979,
+          6956
+        ],
+        "defaultText": ""
+      },
+      "55096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          2907,
+          3239,
+          3008,
+          3340
+        ],
+        "defaultText": ""
+      },
+      "56096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          2907,
+          6955,
+          3008,
+          7056
+        ],
+        "defaultText": ""
+      },
+      "57096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          4583,
+          2620,
+          4684,
+          2721
+        ],
+        "defaultText": ""
+      },
+      "58096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          6886,
+          2620,
+          6987,
+          2721
+        ],
+        "defaultText": ""
+      },
+      "59096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          8451,
+          2620,
+          8552,
+          2721
+        ],
+        "defaultText": ""
+      },
+      "60096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          4583,
+          3239,
+          4684,
+          3340
+        ],
+        "defaultText": ""
+      },
+      "61096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          4583,
+          6955,
+          4684,
+          7056
+        ],
+        "defaultText": ""
+      },
+      "62096": {
+        "kind": "ellipse",
+        "outlineOnly": true,
+        "dim": true,
+        "color": "#808080",
+        "position": [
+          4583,
+          6336,
+          4684,
+          6437
+        ],
+        "defaultText": ""
+      },
+      "63096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          4887,
+          4990,
+          5002,
+          5307
+        ],
+        "defaultText": ""
+      },
+      "64096": {
+        "kind": "dottedLine",
+        "color": "#000",
+        "position": [
+          8607,
+          5004,
+          8842,
+          5351
+        ],
+        "defaultText": ""
+      },
+      "65096": {
+        "kind": "staticText",
+        "color": "#000",
+        "position": [
+          100,
+          100,
+          1100,
+          350
+        ],
+        "defaultText": "Comments:"
+      }
+    }
+  }
+  

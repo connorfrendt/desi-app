@@ -1,0 +1,199 @@
+{
+    "copyright": "Copyright ¬© 1997 Matrix Software Solutions",
+    "group": "(Other)",
+    "typeCode": "SINGLN3",
+    "description": "Single Line (3-in-1)",
+    "landscape": false,
+    "width": 2650,
+    "height": 700,
+    "origins": [
+      [
+        2392,
+        4417
+      ],
+      [
+        2392,
+        4955
+      ],
+      [
+        2392,
+        5493
+      ],
+      [
+        2392,
+        6032
+      ],
+      [
+        2392,
+        6570
+      ],
+      [
+        2392,
+        7108
+      ],
+      [
+        2392,
+        7647
+      ],
+      [
+        2392,
+        8185
+      ],
+      [
+        2392,
+        8723
+      ],
+      [
+        2392,
+        9262
+      ],
+      [
+        4912,
+        4417
+      ],
+      [
+        4912,
+        4955
+      ],
+      [
+        4912,
+        5493
+      ],
+      [
+        4912,
+        6032
+      ],
+      [
+        4912,
+        6570
+      ],
+      [
+        4912,
+        7108
+      ],
+      [
+        4912,
+        7647
+      ],
+      [
+        4912,
+        8185
+      ],
+      [
+        4912,
+        8723
+      ],
+      [
+        4912,
+        9262
+      ],
+      [
+        7432,
+        4417
+      ],
+      [
+        7432,
+        4955
+      ],
+      [
+        7432,
+        5493
+      ],
+      [
+        7432,
+        6032
+      ],
+      [
+        7432,
+        6570
+      ],
+      [
+        7432,
+        7108
+      ],
+      [
+        7432,
+        7647
+      ],
+      [
+        7432,
+        8185
+      ],
+      [
+        7432,
+        8723
+      ],
+      [
+        7432,
+        9262
+      ]
+    ],
+    "objects": {
+      "5096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          100,
+          100,
+          880,
+          575
+        ],
+        "defaultText": ""
+      },
+      "6096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          935,
+          100,
+          1723,
+          575
+        ],
+        "defaultText": ""
+      },
+      "7096": {
+        "kind": "text",
+        "printable": true,
+        "editable": true,
+        "color": "#fff",
+        "position": [
+          1770,
+          100,
+          2550,
+          575
+        ],
+        "defaultText": ""
+      },
+      "8096": {
+        "kind": "rectangle",
+        "printable": true,
+        "invisible": true,
+        "color": "#dfdfdf",
+        "position": [
+          900,
+          0,
+          915,
+          700
+        ],
+        "defaultText": ""
+      },
+      "9096": {
+        "kind": "rectangle",
+        "printable": true,
+        "invisible": true,
+        "color": "#dfdfdf",
+        "position": [
+          1740,
+          0,
+          1755,
+          700
+        ],
+        "defaultText": ""
+      }
+    }
+  }
+  

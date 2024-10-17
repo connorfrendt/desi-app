@@ -16,7 +16,9 @@ function fetchPhoneType(phoneOption) {
             return response.json();
         })
         .then(data => {
+            console.log(data);
             userInput = [];
+
             // Origins - The top left corner of the outer box
             let origins = data.origins;
             userInput.push(data);
@@ -65,7 +67,6 @@ function fetchPhoneType(phoneOption) {
                     `;
                 }
                 else {
-
                     boxHTML = `
                         <div id="input-box-${i}"
                             style="height: ${height}px;
@@ -144,8 +145,3 @@ dropdown.addEventListener('change', (event) => {
     
     fetchPhoneType(selectedValue);
 });
-
-// Initial fetch with default value
-// fetchPhoneType(dropdown.value);
-// fetchPhoneType("phone.json");
-// fetchPhoneType("10130.json");
